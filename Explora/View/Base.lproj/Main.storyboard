@@ -34,7 +34,7 @@ world easily</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPk-HM-BLv" userLabel="btn-next">
-                                <rect key="frame" x="260.66666666666669" y="684" width="84.333333333333314" height="64"/>
+                                <rect key="frame" x="270.66666666666669" y="684" width="84.333333333333314" height="64"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="btn-next" title="&gt;">
                                     <backgroundConfiguration key="background"/>
@@ -60,7 +60,7 @@ world easily</string>
                             <constraint firstItem="1d0-jj-w0E" firstAttribute="leading" secondItem="r8V-ip-nyA" secondAttribute="leading" id="TnJ-hM-Ex1"/>
                             <constraint firstItem="1d0-jj-w0E" firstAttribute="trailing" secondItem="r8V-ip-nyA" secondAttribute="trailing" id="Ubj-Ij-8jW"/>
                             <constraint firstItem="r8V-ip-nyA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="246" id="cIe-VU-nZX"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EPk-HM-BLv" secondAttribute="trailing" constant="30" id="gzF-md-tkL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EPk-HM-BLv" secondAttribute="trailing" constant="20" id="gzF-md-tkL"/>
                             <constraint firstItem="r8V-ip-nyA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qG6-ui-AC7"/>
                             <constraint firstItem="ug6-eF-ju1" firstAttribute="top" secondItem="1d0-jj-w0E" secondAttribute="bottom" constant="10" id="rYW-dF-Ohy"/>
                         </constraints>
@@ -94,7 +94,7 @@ world easily</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6b-G7-HPb" userLabel="btn-next">
-                                <rect key="frame" x="260.66666666666669" y="684" width="84.333333333333314" height="64"/>
+                                <rect key="frame" x="270.66666666666669" y="684" width="84.333333333333314" height="64"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="btn-next" title="&gt;">
                                     <backgroundConfiguration key="background"/>
@@ -120,7 +120,7 @@ world easily</string>
                             <constraint firstItem="wbZ-PE-JqJ" firstAttribute="leading" secondItem="2Gr-hk-lJb" secondAttribute="leading" constant="37.666666666666657" id="ZpH-MM-rI2"/>
                             <constraint firstItem="wbZ-PE-JqJ" firstAttribute="centerX" secondItem="2Gr-hk-lJb" secondAttribute="centerX" id="b3b-7R-y7z"/>
                             <constraint firstItem="PNJ-ZL-bJr" firstAttribute="trailing" secondItem="wbZ-PE-JqJ" secondAttribute="trailing" id="l2x-86-6LT"/>
-                            <constraint firstItem="2Gr-hk-lJb" firstAttribute="trailing" secondItem="r6b-G7-HPb" secondAttribute="trailing" constant="30" id="mOi-is-IFe"/>
+                            <constraint firstItem="2Gr-hk-lJb" firstAttribute="trailing" secondItem="r6b-G7-HPb" secondAttribute="trailing" constant="20" id="mOi-is-IFe"/>
                             <constraint firstItem="2Gr-hk-lJb" firstAttribute="bottom" secondItem="r6b-G7-HPb" secondAttribute="bottom" constant="30" id="qfC-Eq-Vyi"/>
                             <constraint firstItem="PNJ-ZL-bJr" firstAttribute="top" secondItem="wbZ-PE-JqJ" secondAttribute="bottom" constant="50" id="zIK-dl-boA"/>
                         </constraints>
@@ -154,7 +154,7 @@ world easily</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpr-6h-8VB" userLabel="btn-next">
-                                <rect key="frame" x="260.66666666666669" y="684" width="84.333333333333314" height="64"/>
+                                <rect key="frame" x="270.66666666666669" y="684" width="84.333333333333314" height="64"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="btn-next" title="&gt;">
                                     <backgroundConfiguration key="background"/>
@@ -180,7 +180,7 @@ world easily</string>
                             <constraint firstItem="MpC-7a-uO6" firstAttribute="top" secondItem="N07-JH-oPi" secondAttribute="top" constant="165" id="b6Q-oC-eoZ"/>
                             <constraint firstItem="L4n-E9-tu6" firstAttribute="trailing" secondItem="u6o-NY-CYT" secondAttribute="trailing" id="cEk-1y-Iw8"/>
                             <constraint firstItem="u6o-NY-CYT" firstAttribute="top" secondItem="MpC-7a-uO6" secondAttribute="bottom" constant="50" id="faF-Xk-gEE"/>
-                            <constraint firstItem="3fE-pZ-uAc" firstAttribute="trailing" secondItem="kpr-6h-8VB" secondAttribute="trailing" constant="30" id="kGd-6r-4Sq"/>
+                            <constraint firstItem="3fE-pZ-uAc" firstAttribute="trailing" secondItem="kpr-6h-8VB" secondAttribute="trailing" constant="20" id="kGd-6r-4Sq"/>
                             <constraint firstItem="u6o-NY-CYT" firstAttribute="trailing" secondItem="MpC-7a-uO6" secondAttribute="trailing" id="mCA-kt-R3n"/>
                             <constraint firstItem="3fE-pZ-uAc" firstAttribute="trailing" secondItem="MpC-7a-uO6" secondAttribute="trailing" constant="37.666666666666686" id="wTL-qi-jMA"/>
                         </constraints>
@@ -188,7 +188,7 @@ world easily</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1f3-EL-Flb" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1327" y="32"/>
+            <point key="canvasLocation" x="1236" y="32"/>
         </scene>
     </scenes>
     <resources>
