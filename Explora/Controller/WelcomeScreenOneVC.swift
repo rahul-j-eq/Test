@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeScreenOneVC: UIViewController {
 
     @IBOutlet weak var imgOne: UIImageView!
     @IBOutlet weak var lblExploreOne: UILabel!
