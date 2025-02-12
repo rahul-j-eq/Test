@@ -6,19 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		88A4CB0C2D5C98C3008452E6 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88A4CB0B2D5C98C3008452E6 /* Montserrat-Regular.ttf */; };
-		88A4CB0D2D5C98C3008452E6 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88A4CB082D5C98C3008452E6 /* Montserrat-Bold.ttf */; };
-		88A4CB0E2D5C98C3008452E6 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88A4CB0A2D5C98C3008452E6 /* Montserrat-Medium.ttf */; };
-		88A4CB0F2D5C98C3008452E6 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88A4CB092D5C98C3008452E6 /* Montserrat-Light.ttf */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		885C25AF2D5B10300052D941 /* Explora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Explora.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		88A4CB082D5C98C3008452E6 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
-		88A4CB092D5C98C3008452E6 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
-		88A4CB0A2D5C98C3008452E6 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
-		88A4CB0B2D5C98C3008452E6 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -56,10 +45,6 @@
 		885C25A62D5B10300052D941 = {
 			isa = PBXGroup;
 			children = (
-				88A4CB082D5C98C3008452E6 /* Montserrat-Bold.ttf */,
-				88A4CB092D5C98C3008452E6 /* Montserrat-Light.ttf */,
-				88A4CB0A2D5C98C3008452E6 /* Montserrat-Medium.ttf */,
-				88A4CB0B2D5C98C3008452E6 /* Montserrat-Regular.ttf */,
 				885C25B12D5B10300052D941 /* Explora */,
 				885C25B02D5B10300052D941 /* Products */,
 			);
@@ -137,10 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88A4CB0C2D5C98C3008452E6 /* Montserrat-Regular.ttf in Resources */,
-				88A4CB0D2D5C98C3008452E6 /* Montserrat-Bold.ttf in Resources */,
-				88A4CB0E2D5C98C3008452E6 /* Montserrat-Medium.ttf in Resources */,
-				88A4CB0F2D5C98C3008452E6 /* Montserrat-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
