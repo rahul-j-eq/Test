@@ -260,43 +260,6 @@ world easily</string>
                     <view key="view" contentMode="scaleToFill" id="aBO-xJ-uv6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="y7n-79-OdV">
-                                <rect key="frame" x="24" y="343" width="335" height="150.33333333333337"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="POv-Wt-FuK">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="62.666666666666664"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-txtEmail" translatesAutoresizingMaskIntoConstraints="NO" id="lZZ-GM-nh2">
-                                                <rect key="frame" x="0.0" y="0.0" width="335" height="62.666666666666664"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstItem="lZZ-GM-nh2" firstAttribute="leading" secondItem="POv-Wt-FuK" secondAttribute="leading" id="J9j-TV-2hg"/>
-                                            <constraint firstItem="lZZ-GM-nh2" firstAttribute="top" secondItem="POv-Wt-FuK" secondAttribute="top" id="Jxl-iF-RFU"/>
-                                            <constraint firstAttribute="trailing" secondItem="lZZ-GM-nh2" secondAttribute="trailing" id="Wqe-0S-pAG"/>
-                                            <constraint firstAttribute="bottom" secondItem="lZZ-GM-nh2" secondAttribute="bottom" id="vXx-YJ-NWF"/>
-                                        </constraints>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ba-MI-k3F">
-                                        <rect key="frame" x="0.0" y="87.666666666666671" width="335" height="62.666666666666671"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-txtPass" translatesAutoresizingMaskIntoConstraints="NO" id="9a0-5g-AhS">
-                                                <rect key="frame" x="0.0" y="0.0" width="335" height="62.666666666666664"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstItem="9a0-5g-AhS" firstAttribute="top" secondItem="0Ba-MI-k3F" secondAttribute="top" id="FSf-fS-grP"/>
-                                            <constraint firstItem="9a0-5g-AhS" firstAttribute="leading" secondItem="0Ba-MI-k3F" secondAttribute="leading" id="GWs-QO-yhM"/>
-                                            <constraint firstAttribute="bottom" secondItem="9a0-5g-AhS" secondAttribute="bottom" id="Qri-lr-JIh"/>
-                                            <constraint firstAttribute="trailing" secondItem="9a0-5g-AhS" secondAttribute="trailing" id="q5e-Sf-GW3"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                            </stackView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="8Uy-tG-QeC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -470,8 +433,6 @@ world easily</string>
     <resources>
         <image name="btn-next" width="50" height="50"/>
         <image name="img-rememberMe" width="12" height="12"/>
-        <image name="img-txtEmail" width="300" height="50"/>
-        <image name="img-txtPass" width="300" height="50"/>
         <image name="img-welcome" width="107" height="83.666664123535156"/>
         <image name="imgSlideScreenOne" width="100" height="59.666667938232422"/>
         <image name="imgSlideScreenThree" width="100" height="82.333335876464844"/>
