@@ -262,16 +262,16 @@ world easily</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgSlideScreenThree" translatesAutoresizingMaskIntoConstraints="NO" id="RpH-al-wm8">
-                                <rect key="frame" x="37.666666666666657" y="246" width="299.66666666666674" height="178.66666666666663"/>
+                                <rect key="frame" x="37.666666666666657" y="180" width="299.66666666666674" height="178.66666666666663"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make connects with explora" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyF-qy-dBs">
-                                <rect key="frame" x="37.666666666666657" y="484.66666666666669" width="299.66666666666674" height="89.333333333333314"/>
+                                <rect key="frame" x="37.666666666666657" y="418.66666666666669" width="299.66666666666674" height="89.333333333333314"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To your dream trip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gF1-AK-SWl">
-                                <rect key="frame" x="37.666666666666657" y="584" width="299.66666666666674" height="26.666666666666629"/>
+                                <rect key="frame" x="37.666666666666657" y="518" width="299.66666666666674" height="26.666666666666629"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -321,7 +321,7 @@ world easily</string>
                             <constraint firstItem="gF1-AK-SWl" firstAttribute="top" secondItem="oyF-qy-dBs" secondAttribute="bottom" constant="10" id="oNx-vE-hHG"/>
                             <constraint firstItem="q5v-fH-SRM" firstAttribute="width" relation="greaterThanOrEqual" secondItem="ngH-gv-eev" secondAttribute="width" multiplier="0.2" id="rwd-RQ-fHu"/>
                             <constraint firstItem="oyF-qy-dBs" firstAttribute="leading" secondItem="RpH-al-wm8" secondAttribute="leading" id="u16-8d-b1w"/>
-                            <constraint firstItem="RpH-al-wm8" firstAttribute="top" secondItem="ngH-gv-eev" secondAttribute="top" constant="246" id="uBp-w4-RHg"/>
+                            <constraint firstItem="RpH-al-wm8" firstAttribute="top" secondItem="ngH-gv-eev" secondAttribute="top" constant="180" id="uBp-w4-RHg"/>
                             <constraint firstItem="gF1-AK-SWl" firstAttribute="height" secondItem="oyF-qy-dBs" secondAttribute="height" multiplier="0.3" id="xhq-vT-K8C"/>
                         </constraints>
                     </view>
@@ -344,16 +344,16 @@ world easily</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgSlideScreenTwo" translatesAutoresizingMaskIntoConstraints="NO" id="inI-8S-YKv">
-                                <rect key="frame" x="37.666666666666657" y="246" width="299.66666666666674" height="221"/>
+                                <rect key="frame" x="37.666666666666657" y="180" width="299.66666666666674" height="221"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reach the unknown spot" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tny-um-nRo">
-                                <rect key="frame" x="37.666666666666657" y="517" width="299.66666666666674" height="110.33333333333337"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reach the unknown spot" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="15" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tny-um-nRo">
+                                <rect key="frame" x="37.666666666666657" y="451" width="299.66666666666674" height="110.33333333333337"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To your destination" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6E-fn-E9c">
-                                <rect key="frame" x="37.666666666666657" y="637.33333333333337" width="299.66666666666674" height="33"/>
+                                <rect key="frame" x="37.666666666666657" y="571.33333333333337" width="299.66666666666674" height="33"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -387,7 +387,7 @@ world easily</string>
                         <constraints>
                             <constraint firstItem="L6E-fn-E9c" firstAttribute="trailing" secondItem="Tny-um-nRo" secondAttribute="trailing" id="1Ja-So-Cmc"/>
                             <constraint firstItem="1cC-hG-7Vb" firstAttribute="width" secondItem="pKx-ID-uCW" secondAttribute="width" multiplier="0.2" id="1NY-jO-SqD"/>
-                            <constraint firstItem="inI-8S-YKv" firstAttribute="top" secondItem="pKx-ID-uCW" secondAttribute="top" constant="246" id="1kv-0Y-OU7"/>
+                            <constraint firstItem="inI-8S-YKv" firstAttribute="top" secondItem="pKx-ID-uCW" secondAttribute="top" constant="180" id="1kv-0Y-OU7"/>
                             <constraint firstItem="L6E-fn-E9c" firstAttribute="leading" secondItem="Tny-um-nRo" secondAttribute="leading" id="5Ng-ee-OHD"/>
                             <constraint firstItem="1cC-hG-7Vb" firstAttribute="centerY" secondItem="Byx-hv-BBT" secondAttribute="centerY" id="7fR-6x-uw8"/>
                             <constraint firstItem="Tny-um-nRo" firstAttribute="trailing" secondItem="inI-8S-YKv" secondAttribute="trailing" id="BzY-o5-XW6"/>
@@ -544,6 +544,189 @@ world easily</string>
             </objects>
             <point key="canvasLocation" x="550" y="703"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="l7v-iO-9B0">
+            <objects>
+                <viewController id="lAK-8J-jS3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pzc-nu-71b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almost there " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ki3-CX-4fI">
+                                <rect key="frame" x="30" y="130" width="300" height="28"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xy0-x0-4r0">
+                                <rect key="frame" x="30" y="198" width="325" height="34"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Please enter the 6-digit code sent to your">
+                                        <attributes>
+                                            <font key="NSFont" size="14.666666984558105" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Times-Roman"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="email">
+                                        <attributes>
+                                            <font key="NSFont" size="14.666666984558105" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" hemmyhtec@gmail.com">
+                                        <attributes>
+                                            <font key="NSFont" size="14.666666984558105" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" for verification.">
+                                        <attributes>
+                                            <font key="NSFont" size="14.666666984558105" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yM9-L2-cy5">
+                                <rect key="frame" x="33.666666666666657" y="272" width="307.66666666666674" height="40.666666666666686"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="5" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="exI-6a-a5N">
+                                        <rect key="frame" x="0.0" y="0.0" width="34.666666666666664" height="40.666666666666664"/>
+                                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="5" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dtT-27-iHe">
+                                        <rect key="frame" x="54.666666666666671" y="0.0" width="34.666666666666671" height="40.666666666666664"/>
+                                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="5" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GcK-wM-cDf">
+                                        <rect key="frame" x="109.33333333333334" y="0.0" width="34.666666666666657" height="40.666666666666664"/>
+                                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="5" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0jt-hG-7tD">
+                                        <rect key="frame" x="164" y="0.0" width="34.333333333333343" height="40.666666666666664"/>
+                                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="5" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XAn-if-uI8">
+                                        <rect key="frame" x="218.33333333333334" y="0.0" width="34.666666666666657" height="40.666666666666664"/>
+                                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="5" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5nY-Xa-uQY">
+                                        <rect key="frame" x="273" y="0.0" width="34.666666666666686" height="40.666666666666664"/>
+                                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbb-PM-OlW">
+                                <rect key="frame" x="37.666666666666657" y="362.66666666666669" width="300" height="50"/>
+                                <color key="backgroundColor" name="background"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="pia-zk-hlo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="VERIFY"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OnQ-R1-Suh">
+                                <rect key="frame" x="65.333333333333343" y="457.66666666666669" width="300.33333333333326" height="28"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Didn’t receive any code? " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ssx-A2-eEL">
+                                        <rect key="frame" x="0.0" y="0.0" width="147.66666666666666" height="28"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FK6-jh-WNz">
+                                        <rect key="frame" x="152.66666666666669" y="0.0" width="147.66666666666669" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Resend Again"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Request new code in 00:30s" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="klO-PY-ZHI">
+                                <rect key="frame" x="103.99999999999999" y="495.66666666666669" width="145.66666666666663" height="14.333333333333314"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4Nb-9T-OyI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yM9-L2-cy5" firstAttribute="centerX" secondItem="4Nb-9T-OyI" secondAttribute="centerX" id="77K-qs-45G"/>
+                            <constraint firstItem="rbb-PM-OlW" firstAttribute="top" secondItem="yM9-L2-cy5" secondAttribute="bottom" constant="50" id="DQc-X8-l4b"/>
+                            <constraint firstItem="OnQ-R1-Suh" firstAttribute="top" secondItem="rbb-PM-OlW" secondAttribute="bottom" constant="45" id="Dt2-3k-XmT"/>
+                            <constraint firstItem="yM9-L2-cy5" firstAttribute="width" secondItem="Pzc-nu-71b" secondAttribute="width" multiplier="0.82" id="FEE-Dh-3Kr"/>
+                            <constraint firstItem="4Nb-9T-OyI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ki3-CX-4fI" secondAttribute="trailing" symbolic="YES" id="FFH-fR-pOS"/>
+                            <constraint firstItem="ki3-CX-4fI" firstAttribute="top" secondItem="4Nb-9T-OyI" secondAttribute="top" constant="80" id="H0c-uM-Gxm"/>
+                            <constraint firstItem="klO-PY-ZHI" firstAttribute="centerX" secondItem="OnQ-R1-Suh" secondAttribute="centerX" multiplier="0.82" id="QHC-q3-Fxm"/>
+                            <constraint firstItem="yM9-L2-cy5" firstAttribute="top" secondItem="xy0-x0-4r0" secondAttribute="bottom" constant="40" id="QqS-Td-4ub"/>
+                            <constraint firstItem="klO-PY-ZHI" firstAttribute="top" secondItem="OnQ-R1-Suh" secondAttribute="bottom" constant="10" id="Ucq-m3-Pxe"/>
+                            <constraint firstItem="rbb-PM-OlW" firstAttribute="centerX" secondItem="4Nb-9T-OyI" secondAttribute="centerX" id="Uyb-Df-cGZ"/>
+                            <constraint firstItem="yM9-L2-cy5" firstAttribute="height" secondItem="Pzc-nu-71b" secondAttribute="height" multiplier="0.05" id="Wku-C7-NFZ"/>
+                            <constraint firstItem="4Nb-9T-OyI" firstAttribute="trailing" secondItem="xy0-x0-4r0" secondAttribute="trailing" constant="20" id="Y2o-LB-1Xh"/>
+                            <constraint firstItem="xy0-x0-4r0" firstAttribute="leading" secondItem="ki3-CX-4fI" secondAttribute="leading" id="aKX-xn-RiR"/>
+                            <constraint firstItem="OnQ-R1-Suh" firstAttribute="centerX" secondItem="4Nb-9T-OyI" secondAttribute="centerX" multiplier="1.15" id="jLg-if-ms0"/>
+                            <constraint firstItem="ki3-CX-4fI" firstAttribute="width" secondItem="Pzc-nu-71b" secondAttribute="width" multiplier="0.8" id="mxu-vr-mu7"/>
+                            <constraint firstItem="ki3-CX-4fI" firstAttribute="leading" secondItem="4Nb-9T-OyI" secondAttribute="leading" constant="30" id="vXb-Mu-2bK"/>
+                            <constraint firstItem="xy0-x0-4r0" firstAttribute="top" secondItem="ki3-CX-4fI" secondAttribute="bottom" constant="40" id="y67-gU-402"/>
+                            <constraint firstItem="rbb-PM-OlW" firstAttribute="width" secondItem="Pzc-nu-71b" secondAttribute="width" multiplier="0.8" id="za7-GR-mDZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4sj-oB-kRv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1500" y="703"/>
+        </scene>
     </scenes>
     <resources>
         <image name="btn-next" width="50" height="50"/>
@@ -557,6 +740,9 @@ world easily</string>
         <namedColor name="background">
             <color red="0.42352941176470588" green="0.38823529411764707" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
