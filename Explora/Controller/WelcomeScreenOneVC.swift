@@ -20,6 +20,8 @@ class WelcomeScreenOneVC: UIViewController {
         self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
+    
+    
     @IBAction func btnNextTapped(_ sender: UIButton) {
         let SecondScreenVC = self.storyboard?.instantiateViewController(withIdentifier: "WelcomeScreenTwoVC") as! WelcomeScreenTwoVC
         

@@ -25,8 +25,16 @@ class EmailVerificationViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    override func viewWillAppear(_ animated: Bool) {
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    
     @IBAction func btnVerifyPressed(_ sender: UIButton) {
     }
     
+    @IBAction func btnBackPressed(_ sender: UIButton) {
+        
+        self.navigationController?.popViewController(animated: true)
+    }
 }

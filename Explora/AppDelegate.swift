@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print(" -- : \(Names)")
             }
         }
-        print(UIFont(name: "Montserrat-Bold", size: 15))
+//        print(UIFont(name: "Montserrat-Bold", size: 15))
         return true
     }
 
