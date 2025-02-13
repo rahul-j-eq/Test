@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dNS-EJ-yC0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -43,6 +43,9 @@ world easily</string>
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnNextTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oeh-kY-QWD"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Utn-uy-Uo8">
                                 <rect key="frame" x="30" y="715.33333333333337" width="75" height="20.333333333333371"/>
@@ -175,6 +178,9 @@ world easily</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Forget password ?"/>
+                                                <connections>
+                                                    <action selector="btnForgetPasswordTapped:" destination="dNS-EJ-yC0" eventType="touchUpInside" id="R5W-hh-SJT"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -203,6 +209,9 @@ world easily</string>
                                         <state key="normal" title="Register now">
                                             <color key="titleColor" name="background"/>
                                         </state>
+                                        <connections>
+                                            <action selector="btnRegisterNowTapped:" destination="dNS-EJ-yC0" eventType="touchUpInside" id="0fD-4A-F6D"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -215,6 +224,9 @@ world easily</string>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnNextPressed:" destination="dNS-EJ-yC0" eventType="touchUpInside" id="8Iq-YM-pRI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NH5-lp-SQN"/>
@@ -248,6 +260,12 @@ world easily</string>
                             <constraint firstItem="dSo-lq-HWk" firstAttribute="height" secondItem="jiG-zd-Eln" secondAttribute="height" multiplier="0.1" id="xpe-Ar-mok"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnRememberMe" destination="0QS-lI-hoT" id="6rU-vn-Yfx"/>
+                        <outlet property="imgWelcomeBack" destination="aOc-x6-9Ag" id="0vT-eK-pij"/>
+                        <outlet property="txtEmail" destination="Bdr-8M-UR7" id="45X-BI-MSH"/>
+                        <outlet property="txtPassword" destination="sPn-pF-ITT" id="Md3-95-GUP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4KJ-8G-wy1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -284,6 +302,9 @@ world easily</string>
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnNextTapped:" destination="DJm-PZ-95s" eventType="touchUpInside" id="6bu-jH-1ty"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="q5v-fH-SRM">
                                 <rect key="frame" x="30" y="715.33333333333337" width="75" height="20.333333333333371"/>
@@ -326,9 +347,9 @@ world easily</string>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imgOne" destination="RpH-al-wm8" id="xNt-vD-GRn"/>
-                        <outlet property="lblExploreOne" destination="oyF-qy-dBs" id="IgT-Vc-DlN"/>
-                        <outlet property="lblToDesireOne" destination="gF1-AK-SWl" id="E5o-P5-2n0"/>
+                        <outlet property="imgThree" destination="RpH-al-wm8" id="xAs-P6-cH9"/>
+                        <outlet property="lblPrimaryThree" destination="oyF-qy-dBs" id="MPn-59-N2r"/>
+                        <outlet property="lblSecondaryThree" destination="gF1-AK-SWl" id="COV-xh-ahV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f5p-xd-ihu" sceneMemberID="firstResponder"/>
@@ -366,6 +387,9 @@ world easily</string>
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnNextTapped:" destination="ePU-XO-27K" eventType="touchUpInside" id="1Tq-U4-Taz"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="1cC-hG-7Vb">
                                 <rect key="frame" x="30" y="715.33333333333337" width="75" height="20.333333333333371"/>
@@ -406,6 +430,11 @@ world easily</string>
                             <constraint firstItem="Byx-hv-BBT" firstAttribute="height" secondItem="pKx-ID-uCW" secondAttribute="height" multiplier="0.08" id="zdR-kW-8Sn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imgTwo" destination="inI-8S-YKv" id="Hiu-2i-vlq"/>
+                        <outlet property="lblDestinationTwo" destination="L6E-fn-E9c" id="eEm-CO-BPv"/>
+                        <outlet property="lblReachTwo" destination="Tny-um-nRo" id="ZkP-6D-erf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gnq-ZT-Zqx" sceneMemberID="firstResponder"/>
             </objects>
@@ -472,6 +501,9 @@ world easily</string>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="btnAgreeToTermsPressed:" destination="TkK-FW-HWH" eventType="touchUpInside" id="rVo-DA-ntS"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By checking the box you agree to our Terms and Conditions." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81A-cX-QuD">
                                 <rect key="frame" x="55" y="579.33333333333337" width="300" height="20"/>
@@ -495,11 +527,14 @@ world easily</string>
                                         <state key="normal" title="Log In">
                                             <color key="titleColor" name="background"/>
                                         </state>
+                                        <connections>
+                                            <action selector="btnLoginPressed:" destination="TkK-FW-HWH" eventType="touchUpInside" id="EY3-a7-mf8"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQi-jX-9Xs">
-                                <rect key="frame" x="20" y="674" width="335" height="55"/>
+                                <rect key="frame" x="20" y="669" width="335" height="60"/>
                                 <color key="backgroundColor" name="background"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -507,6 +542,9 @@ world easily</string>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnNextPressed:" destination="TkK-FW-HWH" eventType="touchUpInside" id="Qe4-dJ-dYq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Qjw-KO-MLj"/>
@@ -515,7 +553,7 @@ world easily</string>
                             <constraint firstItem="81A-cX-QuD" firstAttribute="top" secondItem="9gm-I9-cRE" secondAttribute="top" id="2LQ-jP-UtL"/>
                             <constraint firstItem="Qjw-KO-MLj" firstAttribute="trailing" secondItem="P6c-SK-09q" secondAttribute="trailing" constant="20" id="3yX-f4-Tc0"/>
                             <constraint firstItem="RPP-FY-RS5" firstAttribute="width" secondItem="ur0-US-O4f" secondAttribute="width" multiplier="0.8" id="3zg-ql-jbk"/>
-                            <constraint firstItem="CQi-jX-9Xs" firstAttribute="height" secondItem="v3k-68-3X9" secondAttribute="height" multiplier="1.1" id="AAJ-eu-xAG"/>
+                            <constraint firstItem="CQi-jX-9Xs" firstAttribute="height" secondItem="v3k-68-3X9" secondAttribute="height" multiplier="1.2" id="AAJ-eu-xAG"/>
                             <constraint firstItem="TIX-sQ-2Yi" firstAttribute="centerX" secondItem="RPP-FY-RS5" secondAttribute="centerX" multiplier="0.9" id="Bhs-xD-HUa"/>
                             <constraint firstItem="RPP-FY-RS5" firstAttribute="top" secondItem="Qjw-KO-MLj" secondAttribute="top" constant="26" id="BtV-Ee-RW6"/>
                             <constraint firstItem="P6c-SK-09q" firstAttribute="top" secondItem="N4H-0T-Bcc" secondAttribute="bottom" constant="35" id="FXA-9b-cBl"/>
@@ -539,6 +577,13 @@ world easily</string>
                             <constraint firstItem="CQi-jX-9Xs" firstAttribute="leading" secondItem="P6c-SK-09q" secondAttribute="leading" id="zc2-cS-iUP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imgGetStarted" destination="RPP-FY-RS5" id="YUY-mA-Zef"/>
+                        <outlet property="txtEmail" destination="kNs-Cc-c2p" id="AJe-1c-mMm"/>
+                        <outlet property="txtName" destination="v3k-68-3X9" id="Bca-JS-0jL"/>
+                        <outlet property="txtPassword" destination="aG6-cI-GR4" id="XRG-8n-uZH"/>
+                        <outlet property="txtPhoneNumber" destination="q3U-Xx-cnv" id="cER-GY-Evc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XLu-mJ-4Rb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -673,6 +718,9 @@ Cg
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="VERIFY"/>
+                                <connections>
+                                    <action selector="btnVerifyPressed:" destination="lAK-8J-jS3" eventType="touchUpInside" id="7ox-5L-omw"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OnQ-R1-Suh">
                                 <rect key="frame" x="65.333333333333343" y="457.66666666666669" width="300.33333333333326" height="28"/>
@@ -733,6 +781,15 @@ Cg
                             <constraint firstItem="rbb-PM-OlW" firstAttribute="width" secondItem="Pzc-nu-71b" secondAttribute="width" multiplier="0.8" id="za7-GR-mDZ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lblEmailCode" destination="xy0-x0-4r0" id="RQQ-wN-aau"/>
+                        <outlet property="txtDigitFive" destination="XAn-if-uI8" id="101-jP-teh"/>
+                        <outlet property="txtDigitFour" destination="0jt-hG-7tD" id="pni-fK-cyu"/>
+                        <outlet property="txtDigitOne" destination="exI-6a-a5N" id="lNK-dV-6wn"/>
+                        <outlet property="txtDigitSix" destination="5nY-Xa-uQY" id="xA7-kL-OvU"/>
+                        <outlet property="txtDigitThree" destination="GcK-wM-cDf" id="vRQ-YO-8wf"/>
+                        <outlet property="txtDigitTwo" destination="dtT-27-iHe" id="mGa-Lw-VNh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4sj-oB-kRv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -780,7 +837,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dyv-LM-jfc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2501.5999999999999" y="702.70935960591135"/>
+            <point key="canvasLocation" x="2524" y="703"/>
         </scene>
     </scenes>
     <resources>

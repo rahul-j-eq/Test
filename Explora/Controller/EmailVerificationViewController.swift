@@ -9,6 +9,16 @@ import UIKit
 
 class EmailVerificationViewController: UIViewController {
 
+    @IBOutlet weak var lblEmailCode: UILabel!
+    
+    @IBOutlet weak var txtDigitOne: UITextField!
+    @IBOutlet weak var txtDigitTwo: UITextField!
+    @IBOutlet weak var txtDigitThree: UITextField!
+    @IBOutlet weak var txtDigitFour: UITextField!
+    @IBOutlet weak var txtDigitFive: UITextField!
+    @IBOutlet weak var txtDigitSix: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,14 +26,7 @@ class EmailVerificationViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func btnVerifyPressed(_ sender: UIButton) {
     }
-    */
-
+    
 }

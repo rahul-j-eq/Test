@@ -18,6 +18,8 @@ class WelcomeScreenOneVC: UIViewController {
        
     }
 
-
+    @IBAction func btnNextTapped(_ sender: UIButton) {
+    }
+    
 }
 
