@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dNS-EJ-yC0">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -45,22 +45,18 @@ world easily</string>
                                 </buttonConfiguration>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Utn-uy-Uo8">
-                                <rect key="frame" x="30" y="705.66666666666663" width="100" height="20"/>
+                                <rect key="frame" x="30" y="705.33333333333337" width="75" height="20.333333333333371"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MtJ-bi-TRt">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="20"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-rectangle-filled" translatesAutoresizingMaskIntoConstraints="NO" id="MtJ-bi-TRt">
+                                        <rect key="frame" x="0.0" y="0.0" width="21.666666666666668" height="20.333333333333332"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dUf-a0-TeL">
-                                        <rect key="frame" x="35" y="0.0" width="30" height="20"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="dUf-a0-TeL">
+                                        <rect key="frame" x="26.666666666666664" y="0.0" width="21.666666666666664" height="20.333333333333332"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gay-uZ-NZ4">
-                                        <rect key="frame" x="70" y="0.0" width="30" height="20"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="gay-uZ-NZ4">
+                                        <rect key="frame" x="53.333333333333321" y="0.0" width="21.666666666666664" height="20.333333333333332"/>
                                     </imageView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="20" id="EeL-x4-VFa"/>
-                                    <constraint firstAttribute="width" constant="100" id="wDv-6w-Vnv"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -78,7 +74,9 @@ world easily</string>
                             <constraint firstItem="1d0-jj-w0E" firstAttribute="leading" secondItem="r8V-ip-nyA" secondAttribute="leading" id="TnJ-hM-Ex1"/>
                             <constraint firstItem="1d0-jj-w0E" firstAttribute="trailing" secondItem="r8V-ip-nyA" secondAttribute="trailing" id="Ubj-Ij-8jW"/>
                             <constraint firstItem="Utn-uy-Uo8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="ZOz-bI-dVA"/>
+                            <constraint firstItem="Utn-uy-Uo8" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.025" id="bPN-sR-6lj"/>
                             <constraint firstItem="r8V-ip-nyA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="246" id="cIe-VU-nZX"/>
+                            <constraint firstItem="Utn-uy-Uo8" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.2" id="ie5-ZR-qR7"/>
                             <constraint firstItem="Utn-uy-Uo8" firstAttribute="centerY" secondItem="eKm-18-Khh" secondAttribute="centerY" id="obr-ab-5pc"/>
                             <constraint firstItem="r8V-ip-nyA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qG6-ui-AC7"/>
                             <constraint firstItem="ug6-eF-ju1" firstAttribute="top" secondItem="1d0-jj-w0E" secondAttribute="bottom" constant="10" id="rYW-dF-Ohy"/>
@@ -95,10 +93,10 @@ world easily</string>
             </objects>
             <point key="canvasLocation" x="-435.00000000000006" y="-48.326359832635987"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="BYT-m6-vOy">
             <objects>
-                <viewController id="dNS-EJ-yC0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="dNS-EJ-yC0" customClass="LoginViewController" customModule="Explora" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m1Y-AR-SZp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -107,13 +105,13 @@ world easily</string>
                                 <rect key="frame" x="37.666666666666657" y="75.999999999999986" width="300" height="243.66666666666663"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome back" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyl-fQ-ckK">
-                                <rect key="frame" x="84.666666666666686" y="207.66666666666666" width="168" height="28.666666666666657"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <rect key="frame" x="79.666666666666671" y="207.66666666666666" width="178.33333333333331" height="31.666666666666657"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sign in to access your account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcO-9l-36D">
-                                <rect key="frame" x="60.333333333333343" y="246.33333333333334" width="217.00000000000003" height="19.333333333333343"/>
+                                <rect key="frame" x="60.333333333333343" y="249.33333333333334" width="217.00000000000003" height="19.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -152,7 +150,7 @@ world easily</string>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remember me " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIn-AL-0sQ">
                                                 <rect key="frame" x="36.666666666666657" y="0.0" width="121" height="13.666666666666666"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -189,25 +187,27 @@ world easily</string>
                                     </view>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="rGf-vr-vSH">
-                                <rect key="frame" x="87" y="740" width="201" height="28"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rGf-vr-vSH">
+                                <rect key="frame" x="20" y="739" width="335" height="29"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Member?  " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YC7-i8-UpB">
-                                        <rect key="frame" x="0.0" y="0.0" width="98" height="28"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="162.66666666666666" height="29"/>
                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="11"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJH-Bl-b69">
-                                        <rect key="frame" x="103" y="0.0" width="98" height="28"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                        <rect key="frame" x="172.66666666666663" y="0.0" width="162.33333333333337" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Register now"/>
+                                        <state key="normal" title="Register now">
+                                            <color key="titleColor" name="background"/>
+                                        </state>
                                     </button>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Diz-10-QfR">
-                                <rect key="frame" x="20" y="676" width="335" height="56"/>
+                                <rect key="frame" x="20" y="671" width="335" height="58"/>
                                 <color key="backgroundColor" name="background"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -220,12 +220,11 @@ world easily</string>
                         <viewLayoutGuide key="safeArea" id="NH5-lp-SQN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="rGf-vr-vSH" firstAttribute="top" secondItem="Diz-10-QfR" secondAttribute="bottom" constant="8" id="2Mo-V4-XBw"/>
+                            <constraint firstItem="rGf-vr-vSH" firstAttribute="top" secondItem="Diz-10-QfR" secondAttribute="bottom" constant="10" id="2Mo-V4-XBw"/>
                             <constraint firstItem="jiG-zd-Eln" firstAttribute="centerY" secondItem="NH5-lp-SQN" secondAttribute="centerY" id="Bh1-U4-ce9"/>
                             <constraint firstItem="jiG-zd-Eln" firstAttribute="leading" secondItem="NH5-lp-SQN" secondAttribute="leading" constant="20" id="D8R-sl-5Pb"/>
                             <constraint firstItem="NH5-lp-SQN" firstAttribute="bottom" secondItem="rGf-vr-vSH" secondAttribute="bottom" constant="10" id="DXK-5A-Uec"/>
                             <constraint firstItem="lcO-9l-36D" firstAttribute="centerX" secondItem="fyl-fQ-ckK" secondAttribute="centerX" id="FRQ-Sf-bQa"/>
-                            <constraint firstItem="rGf-vr-vSH" firstAttribute="width" secondItem="sPn-pF-ITT" secondAttribute="width" multiplier="0.6" id="G5D-Ll-O9O"/>
                             <constraint firstItem="dSo-lq-HWk" firstAttribute="trailing" secondItem="jiG-zd-Eln" secondAttribute="trailing" id="Hta-3Y-ywD"/>
                             <constraint firstItem="lcO-9l-36D" firstAttribute="top" secondItem="fyl-fQ-ckK" secondAttribute="bottom" constant="10" id="Ib1-eF-neb"/>
                             <constraint firstItem="Diz-10-QfR" firstAttribute="trailing" secondItem="Bdr-8M-UR7" secondAttribute="trailing" id="OAK-xi-muD"/>
@@ -237,12 +236,14 @@ world easily</string>
                             <constraint firstItem="fyl-fQ-ckK" firstAttribute="centerX" secondItem="aOc-x6-9Ag" secondAttribute="centerX" multiplier="0.9" id="c0d-yJ-aAz"/>
                             <constraint firstItem="Diz-10-QfR" firstAttribute="leading" secondItem="Bdr-8M-UR7" secondAttribute="leading" id="dCE-0k-KCk"/>
                             <constraint firstItem="jiG-zd-Eln" firstAttribute="centerX" secondItem="NH5-lp-SQN" secondAttribute="centerX" id="dfe-ZS-fak"/>
+                            <constraint firstItem="rGf-vr-vSH" firstAttribute="leading" secondItem="NH5-lp-SQN" secondAttribute="leading" constant="20" id="e7o-ph-lxW"/>
                             <constraint firstItem="aOc-x6-9Ag" firstAttribute="height" secondItem="m1Y-AR-SZp" secondAttribute="height" multiplier="0.3" id="eBO-o9-ToC"/>
                             <constraint firstItem="rGf-vr-vSH" firstAttribute="height" secondItem="Diz-10-QfR" secondAttribute="height" multiplier="0.5" id="fwq-06-44D"/>
                             <constraint firstItem="NH5-lp-SQN" firstAttribute="trailing" secondItem="jiG-zd-Eln" secondAttribute="trailing" constant="20" id="gXw-tc-Zpz"/>
                             <constraint firstItem="jiG-zd-Eln" firstAttribute="height" secondItem="m1Y-AR-SZp" secondAttribute="height" multiplier="0.17" id="jCS-hz-Yta"/>
                             <constraint firstItem="fyl-fQ-ckK" firstAttribute="top" secondItem="aOc-x6-9Ag" secondAttribute="bottom" multiplier="0.65" id="mZ5-nZ-BrV"/>
                             <constraint firstItem="dSo-lq-HWk" firstAttribute="top" secondItem="jiG-zd-Eln" secondAttribute="bottom" constant="10" id="oth-cK-R4y"/>
+                            <constraint firstItem="NH5-lp-SQN" firstAttribute="trailing" secondItem="rGf-vr-vSH" secondAttribute="trailing" constant="20" id="r3v-5A-YuJ"/>
                             <constraint firstItem="aOc-x6-9Ag" firstAttribute="centerX" secondItem="NH5-lp-SQN" secondAttribute="centerX" id="seL-6t-CUF"/>
                             <constraint firstItem="dSo-lq-HWk" firstAttribute="height" secondItem="jiG-zd-Eln" secondAttribute="height" multiplier="0.1" id="xpe-Ar-mok"/>
                         </constraints>
@@ -252,10 +253,10 @@ world easily</string>
             </objects>
             <point key="canvasLocation" x="-436" y="703.44827586206895"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome Screen ThreeVC-->
         <scene sceneID="d90-Kj-JaA">
             <objects>
-                <viewController id="DJm-PZ-95s" sceneMemberID="viewController">
+                <viewController id="DJm-PZ-95s" customClass="WelcomeScreenThreeVC" customModule="Explora" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ngH-gv-eev">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -285,22 +286,19 @@ world easily</string>
                                 </buttonConfiguration>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="q5v-fH-SRM">
-                                <rect key="frame" x="30" y="705.66666666666663" width="100" height="20"/>
+                                <rect key="frame" x="30" y="705.33333333333337" width="75" height="20.333333333333371"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fqo-t6-dlw">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="20"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="fqo-t6-dlw">
+                                        <rect key="frame" x="0.0" y="0.0" width="21.666666666666668" height="20.333333333333332"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NZC-Mz-XZ5">
-                                        <rect key="frame" x="35" y="0.0" width="30" height="20"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="NZC-Mz-XZ5">
+                                        <rect key="frame" x="26.666666666666664" y="0.0" width="21.666666666666664" height="20.333333333333332"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZEy-yu-zrH">
-                                        <rect key="frame" x="70" y="0.0" width="30" height="20"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-rectangle-filled" translatesAutoresizingMaskIntoConstraints="NO" id="ZEy-yu-zrH">
+                                        <rect key="frame" x="53.333333333333321" y="0.0" width="21.666666666666664" height="20.333333333333332"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </imageView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="6cD-A0-Xcm"/>
-                                    <constraint firstAttribute="height" constant="20" id="Xzz-jI-VFD"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Yfg-DO-ndl"/>
@@ -313,6 +311,7 @@ world easily</string>
                             <constraint firstItem="gF1-AK-SWl" firstAttribute="trailing" secondItem="oyF-qy-dBs" secondAttribute="trailing" id="GlM-Hw-RJ5"/>
                             <constraint firstItem="oyF-qy-dBs" firstAttribute="height" secondItem="RpH-al-wm8" secondAttribute="height" multiplier="0.5" id="K7a-OF-Yen"/>
                             <constraint firstItem="oyF-qy-dBs" firstAttribute="trailing" secondItem="RpH-al-wm8" secondAttribute="trailing" id="Lb0-sc-MCo"/>
+                            <constraint firstItem="q5v-fH-SRM" firstAttribute="height" secondItem="ngH-gv-eev" secondAttribute="height" multiplier="0.025" id="Oat-9b-bQ0"/>
                             <constraint firstItem="Yfg-DO-ndl" firstAttribute="trailing" secondItem="RpH-al-wm8" secondAttribute="trailing" constant="37.666666666666686" id="R5b-0j-2Bc"/>
                             <constraint firstItem="Yfg-DO-ndl" firstAttribute="trailing" secondItem="34R-79-kcL" secondAttribute="trailing" constant="30" id="RKg-yU-wzg"/>
                             <constraint firstItem="q5v-fH-SRM" firstAttribute="centerY" secondItem="34R-79-kcL" secondAttribute="centerY" id="ZtJ-4g-fXV"/>
@@ -320,6 +319,7 @@ world easily</string>
                             <constraint firstItem="Yfg-DO-ndl" firstAttribute="bottom" secondItem="34R-79-kcL" secondAttribute="bottom" constant="30" id="f45-Bd-gtl"/>
                             <constraint firstItem="oyF-qy-dBs" firstAttribute="top" secondItem="RpH-al-wm8" secondAttribute="bottom" constant="60" id="fqN-pC-5cQ"/>
                             <constraint firstItem="gF1-AK-SWl" firstAttribute="top" secondItem="oyF-qy-dBs" secondAttribute="bottom" constant="10" id="oNx-vE-hHG"/>
+                            <constraint firstItem="q5v-fH-SRM" firstAttribute="width" relation="greaterThanOrEqual" secondItem="ngH-gv-eev" secondAttribute="width" multiplier="0.2" id="rwd-RQ-fHu"/>
                             <constraint firstItem="oyF-qy-dBs" firstAttribute="leading" secondItem="RpH-al-wm8" secondAttribute="leading" id="u16-8d-b1w"/>
                             <constraint firstItem="RpH-al-wm8" firstAttribute="top" secondItem="ngH-gv-eev" secondAttribute="top" constant="246" id="uBp-w4-RHg"/>
                             <constraint firstItem="gF1-AK-SWl" firstAttribute="height" secondItem="oyF-qy-dBs" secondAttribute="height" multiplier="0.3" id="xhq-vT-K8C"/>
@@ -335,10 +335,10 @@ world easily</string>
             </objects>
             <point key="canvasLocation" x="1500" y="-48"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome Screen TwoVC-->
         <scene sceneID="OlO-6K-J2w">
             <objects>
-                <viewController id="ePU-XO-27K" sceneMemberID="viewController">
+                <viewController id="ePU-XO-27K" customClass="WelcomeScreenTwoVC" customModule="Explora" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pKx-ID-uCW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -367,44 +367,42 @@ world easily</string>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nJa-5k-D3j">
-                                <rect key="frame" x="30" y="705.66666666666663" width="100" height="20"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="1cC-hG-7Vb">
+                                <rect key="frame" x="30" y="705.33333333333337" width="75" height="20.333333333333371"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XQi-gd-vmn">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="20"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="Ecy-2o-IGg">
+                                        <rect key="frame" x="0.0" y="0.0" width="21.666666666666668" height="20.333333333333332"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c77-9B-R05">
-                                        <rect key="frame" x="35" y="0.0" width="30" height="20"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-rectangle-filled" translatesAutoresizingMaskIntoConstraints="NO" id="CDs-tl-Qvd">
+                                        <rect key="frame" x="26.666666666666664" y="0.0" width="21.666666666666664" height="20.333333333333332"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jHV-fy-kxF">
-                                        <rect key="frame" x="70" y="0.0" width="30" height="20"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="d4P-Db-Xjr">
+                                        <rect key="frame" x="53.333333333333321" y="0.0" width="21.666666666666664" height="20.333333333333332"/>
                                     </imageView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="Rsp-cC-LDQ"/>
-                                    <constraint firstAttribute="height" constant="20" id="e3o-zf-J7W"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ogE-ll-kHX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="L6E-fn-E9c" firstAttribute="trailing" secondItem="Tny-um-nRo" secondAttribute="trailing" id="1Ja-So-Cmc"/>
+                            <constraint firstItem="1cC-hG-7Vb" firstAttribute="width" secondItem="pKx-ID-uCW" secondAttribute="width" multiplier="0.2" id="1NY-jO-SqD"/>
                             <constraint firstItem="inI-8S-YKv" firstAttribute="top" secondItem="pKx-ID-uCW" secondAttribute="top" constant="246" id="1kv-0Y-OU7"/>
                             <constraint firstItem="L6E-fn-E9c" firstAttribute="leading" secondItem="Tny-um-nRo" secondAttribute="leading" id="5Ng-ee-OHD"/>
+                            <constraint firstItem="1cC-hG-7Vb" firstAttribute="centerY" secondItem="Byx-hv-BBT" secondAttribute="centerY" id="7fR-6x-uw8"/>
                             <constraint firstItem="Tny-um-nRo" firstAttribute="trailing" secondItem="inI-8S-YKv" secondAttribute="trailing" id="BzY-o5-XW6"/>
                             <constraint firstItem="ogE-ll-kHX" firstAttribute="bottom" secondItem="Byx-hv-BBT" secondAttribute="bottom" constant="30" id="EQJ-cB-KWO"/>
-                            <constraint firstItem="nJa-5k-D3j" firstAttribute="centerY" secondItem="Byx-hv-BBT" secondAttribute="centerY" id="UV7-00-zQE"/>
+                            <constraint firstItem="1cC-hG-7Vb" firstAttribute="height" secondItem="pKx-ID-uCW" secondAttribute="height" multiplier="0.025" id="QtD-Sf-xod"/>
                             <constraint firstItem="Tny-um-nRo" firstAttribute="leading" secondItem="inI-8S-YKv" secondAttribute="leading" id="aDG-KB-kXr"/>
                             <constraint firstItem="inI-8S-YKv" firstAttribute="height" secondItem="pKx-ID-uCW" secondAttribute="height" multiplier="0.272" id="d9I-w6-Vf1"/>
                             <constraint firstItem="L6E-fn-E9c" firstAttribute="height" secondItem="Tny-um-nRo" secondAttribute="height" multiplier="0.3" id="lVy-fy-InM"/>
                             <constraint firstItem="ogE-ll-kHX" firstAttribute="trailing" secondItem="inI-8S-YKv" secondAttribute="trailing" constant="37.666666666666686" id="puH-Et-a8b"/>
                             <constraint firstItem="L6E-fn-E9c" firstAttribute="top" secondItem="Tny-um-nRo" secondAttribute="bottom" constant="10" id="qZt-sJ-zPI"/>
+                            <constraint firstItem="1cC-hG-7Vb" firstAttribute="leading" secondItem="ogE-ll-kHX" secondAttribute="leading" constant="30" id="rFp-uT-W8w"/>
                             <constraint firstItem="Tny-um-nRo" firstAttribute="height" secondItem="inI-8S-YKv" secondAttribute="height" multiplier="0.5" id="rs9-VC-jgl"/>
                             <constraint firstItem="Tny-um-nRo" firstAttribute="top" secondItem="inI-8S-YKv" secondAttribute="bottom" constant="50" id="yCW-AF-gsq"/>
                             <constraint firstItem="inI-8S-YKv" firstAttribute="centerX" secondItem="ogE-ll-kHX" secondAttribute="centerX" id="yDf-wS-uvc"/>
                             <constraint firstItem="ogE-ll-kHX" firstAttribute="trailing" secondItem="Byx-hv-BBT" secondAttribute="trailing" constant="30" id="yOq-UM-bf9"/>
-                            <constraint firstItem="nJa-5k-D3j" firstAttribute="leading" secondItem="ogE-ll-kHX" secondAttribute="leading" constant="30" id="zBC-vs-Mir"/>
                             <constraint firstItem="Byx-hv-BBT" firstAttribute="height" secondItem="pKx-ID-uCW" secondAttribute="height" multiplier="0.08" id="zdR-kW-8Sn"/>
                         </constraints>
                     </view>
@@ -413,10 +411,10 @@ world easily</string>
             </objects>
             <point key="canvasLocation" x="550" y="-48"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="nMK-D6-ZnU">
             <objects>
-                <viewController id="TkK-FW-HWH" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" id="TkK-FW-HWH" customClass="SignUpViewController" customModule="Explora" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ur0-US-O4f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -442,9 +440,6 @@ world easily</string>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="   Full name" minimumFontSize="15" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="v3k-68-3X9">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="50"/>
                                         <color key="backgroundColor" systemColor="systemGray6Color"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="ArO-w3-JQw"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -480,29 +475,31 @@ world easily</string>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By checking the box you agree to our Terms and Conditions." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81A-cX-QuD">
                                 <rect key="frame" x="55" y="579.33333333333337" width="300" height="20"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="geA-Px-sFE">
-                                <rect key="frame" x="50" y="750" width="275" height="28"/>
+                                <rect key="frame" x="50" y="739" width="305" height="29"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Member?  " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZx-r0-aHJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="135" height="28"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aready a member?" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZx-r0-aHJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="29"/>
                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="11"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UA7-LL-bZ3">
-                                        <rect key="frame" x="140" y="0.0" width="135" height="28"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                        <rect key="frame" x="155" y="0.0" width="150" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Register now"/>
+                                        <state key="normal" title="Log In">
+                                            <color key="titleColor" name="background"/>
+                                        </state>
                                     </button>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQi-jX-9Xs">
-                                <rect key="frame" x="20" y="687" width="335" height="55"/>
+                                <rect key="frame" x="20" y="674" width="335" height="55"/>
                                 <color key="backgroundColor" name="background"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -522,18 +519,19 @@ world easily</string>
                             <constraint firstItem="TIX-sQ-2Yi" firstAttribute="centerX" secondItem="RPP-FY-RS5" secondAttribute="centerX" multiplier="0.9" id="Bhs-xD-HUa"/>
                             <constraint firstItem="RPP-FY-RS5" firstAttribute="top" secondItem="Qjw-KO-MLj" secondAttribute="top" constant="26" id="BtV-Ee-RW6"/>
                             <constraint firstItem="P6c-SK-09q" firstAttribute="top" secondItem="N4H-0T-Bcc" secondAttribute="bottom" constant="35" id="FXA-9b-cBl"/>
-                            <constraint firstItem="geA-Px-sFE" firstAttribute="bottom" secondItem="Qjw-KO-MLj" secondAttribute="bottom" id="KXo-pm-eQk"/>
                             <constraint firstItem="N4H-0T-Bcc" firstAttribute="centerX" secondItem="TIX-sQ-2Yi" secondAttribute="centerX" id="OWV-4r-kZg"/>
                             <constraint firstItem="RPP-FY-RS5" firstAttribute="height" secondItem="ur0-US-O4f" secondAttribute="height" multiplier="0.3" id="Rua-AH-uGV"/>
                             <constraint firstItem="81A-cX-QuD" firstAttribute="leading" secondItem="9gm-I9-cRE" secondAttribute="trailing" constant="10" id="Uq2-j4-zmg"/>
-                            <constraint firstItem="geA-Px-sFE" firstAttribute="top" secondItem="CQi-jX-9Xs" secondAttribute="bottom" constant="8" id="XCR-Qt-UKs"/>
+                            <constraint firstItem="geA-Px-sFE" firstAttribute="top" secondItem="CQi-jX-9Xs" secondAttribute="bottom" constant="10" id="XCR-Qt-UKs"/>
                             <constraint firstItem="9gm-I9-cRE" firstAttribute="leading" secondItem="P6c-SK-09q" secondAttribute="leading" constant="5" id="Yqo-5U-9xv"/>
                             <constraint firstItem="N4H-0T-Bcc" firstAttribute="top" secondItem="TIX-sQ-2Yi" secondAttribute="bottom" constant="10" id="cMD-oE-ghB"/>
+                            <constraint firstItem="P6c-SK-09q" firstAttribute="height" secondItem="ur0-US-O4f" secondAttribute="height" multiplier="0.320197" id="cT8-jb-yRT"/>
                             <constraint firstItem="81A-cX-QuD" firstAttribute="centerY" secondItem="9gm-I9-cRE" secondAttribute="centerY" id="d3d-bH-u0l"/>
-                            <constraint firstItem="Qjw-KO-MLj" firstAttribute="trailing" secondItem="geA-Px-sFE" secondAttribute="trailing" constant="50" id="f65-Le-bds"/>
+                            <constraint firstItem="Qjw-KO-MLj" firstAttribute="trailing" secondItem="geA-Px-sFE" secondAttribute="trailing" constant="20" id="f65-Le-bds"/>
                             <constraint firstItem="geA-Px-sFE" firstAttribute="leading" secondItem="Qjw-KO-MLj" secondAttribute="leading" constant="50" id="fJa-ne-7t4"/>
                             <constraint firstItem="9gm-I9-cRE" firstAttribute="top" secondItem="P6c-SK-09q" secondAttribute="bottom" constant="15" id="g56-2S-O3Y"/>
                             <constraint firstItem="TIX-sQ-2Yi" firstAttribute="top" secondItem="RPP-FY-RS5" secondAttribute="bottom" multiplier="0.62" id="j6Q-x1-ZnY"/>
+                            <constraint firstItem="Qjw-KO-MLj" firstAttribute="bottom" secondItem="geA-Px-sFE" secondAttribute="bottom" constant="10" id="l2R-e7-VKs"/>
                             <constraint firstItem="P6c-SK-09q" firstAttribute="leading" secondItem="Qjw-KO-MLj" secondAttribute="leading" constant="20" id="r1z-hO-kZM"/>
                             <constraint firstItem="RPP-FY-RS5" firstAttribute="centerX" secondItem="Qjw-KO-MLj" secondAttribute="centerX" id="t2O-XR-aSe"/>
                             <constraint firstItem="81A-cX-QuD" firstAttribute="trailing" secondItem="P6c-SK-09q" secondAttribute="trailing" id="uV3-Bn-W6f"/>
@@ -549,6 +547,8 @@ world easily</string>
     </scenes>
     <resources>
         <image name="btn-next" width="50" height="50"/>
+        <image name="ic-rectangle" width="13" height="6"/>
+        <image name="ic-rectangle-filled" width="16" height="6"/>
         <image name="img-rememberMe" width="12" height="12"/>
         <image name="img-welcome" width="107" height="83.666664123535156"/>
         <image name="imgSlideScreenOne" width="100" height="59.666667938232422"/>
