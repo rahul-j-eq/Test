@@ -21,6 +21,10 @@ class WelcomeScreenTwoVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
     
     @IBAction func btnNextTapped(_ sender: UIButton) {
     }
