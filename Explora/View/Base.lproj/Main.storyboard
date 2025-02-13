@@ -859,10 +859,9 @@ Cg
         <!--Navigation Controller-->
         <scene sceneID="fKk-RO-P0v">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RE6-fL-mDP" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" navigationBarHidden="YES" hidesBarsOnSwipe="YES" id="RE6-fL-mDP" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fWo-vv-aVh">
-                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -878,7 +877,6 @@ Cg
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="30l-PN-wPI"/>
         <segue reference="ReD-mm-VN5"/>
     </inferredMetricsTieBreakers>
     <resources>

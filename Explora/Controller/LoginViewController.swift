@@ -33,6 +33,8 @@ class LoginViewController: UIViewController {
     }
     
     
+    // MARK: - Next Button Tapped
+    
     @IBAction func btnNextPressed(_ sender: UIButton) {
         
         guard let email = txtEmail.text, !email.isEmpty else {
@@ -43,17 +45,25 @@ class LoginViewController: UIViewController {
         
         if EmailValidator().isValidEmail(email) == false {
             let Alert = AlertManager.shared
-            Alert.showAlert(on: self, title: "Invalid Email!", message: "Please enter a valid email address.")
+            Alert.showAlert(on: self, title: "Invalid Email!", message: Constants.invalidEmail)
             return
         }
         
         guard let password = txtPassword.text, !password.isEmpty else {
-            let Alert = AlertManager.shared
-            Alert.showAlert(on: self, title: "Empty Password!", message: "Password field is empty. Please enter a password.")
+            let alert = AlertManager.shared
+            alert.showAlert(on: self, title: "Empty Password!", message: Constants.emptyPassword)
+            return
+        }
+
+        guard password.count >= 8 else {
+            let alert = AlertManager.shared
+            alert.showAlert(on: self, title: "Password Too Short!", message: Constants.passwordError)
             return
         }
         
         print("Email: \(email), Password: \(password)")
+        
+        
         // All check passed now show welcome scene to user.
         let HomeVC = self.storyboard?.instantiateViewController(withIdentifier: Constants.HomeVC) as! HomeViewController
         self.navigationController?.pushViewController(HomeVC, animated: true)
