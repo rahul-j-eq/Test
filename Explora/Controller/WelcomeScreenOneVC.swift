@@ -23,9 +23,9 @@ class WelcomeScreenOneVC: UIViewController {
     
     
     @IBAction func btnNextTapped(_ sender: UIButton) {
-        let SecondScreenVC = self.storyboard?.instantiateViewController(withIdentifier: "WelcomeScreenTwoVC") as! WelcomeScreenTwoVC
+        let SecondVC = self.storyboard?.instantiateViewController(withIdentifier: Constants.WSTwo) as! WelcomeScreenTwoVC
         
-        self.navigationController?.pushViewController(SecondScreenVC, animated: true)
+        self.navigationController?.pushViewController(SecondVC, animated: true)
     }
     
 }

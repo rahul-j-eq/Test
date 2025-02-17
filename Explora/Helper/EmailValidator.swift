@@ -16,10 +16,5 @@ class EmailValidator {
         let predicate = NSPredicate(format: "SELF MATCHES %@", emailRegex)
         return predicate.evaluate(with: email)
     }
-    
-    // check if email is empty
-    func isEmailEmpty(_ email: String) -> Bool {
-        return email.isEmpty
-    }
 }
 

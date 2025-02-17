@@ -21,5 +21,10 @@ struct Constants {
     static let networkError = "Network connection error. Please try again later."
     static let emptyPassword = "Password is required."
     static let passwordError = "Password should be at least 8 characters long."
+    static let emptyName = "Name is required."
+    static let invalidName = "Please Enter the full name."
+    static let emptyPhone = "Phone number is required."
+    static let invaildPhone = "Please enter a valid 10 digit phone number."
+    static let invalidOTP = "OTP is invalid."
     
 }

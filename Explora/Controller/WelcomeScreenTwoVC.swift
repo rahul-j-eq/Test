@@ -27,6 +27,9 @@ class WelcomeScreenTwoVC: UIViewController {
     }
     
     @IBAction func btnNextTapped(_ sender: UIButton) {
+        let ThirdVC = self.storyboard?.instantiateViewController(withIdentifier: Constants.WSThree) as! WelcomeScreenThreeVC
+        
+        self.navigationController?.pushViewController(ThirdVC, animated: true)
     }
     
 }

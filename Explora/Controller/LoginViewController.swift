@@ -17,11 +17,14 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var btnRememberMe: UIButton!
     
+    @IBOutlet weak var btnNext: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        btnNext.layer.cornerRadius = 15
+        btnNext.layer.masksToBounds = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
