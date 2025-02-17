@@ -9,6 +9,8 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    // MARK: - Outlets.
+    
     @IBOutlet weak var imgWelcomeBack: UIImageView!
     
     @IBOutlet weak var txtEmail: UITextField!
@@ -18,6 +20,9 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var btnRememberMe: UIButton!
     
     @IBOutlet weak var btnNext: UIButton!
+    
+
+    // MARK: - DidLoad().
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +40,19 @@ class LoginViewController: UIViewController {
     @IBAction func btnForgetPasswordTapped(_ sender: UIButton) {
     }
     
+    // MARK: - Remember Me Button.
+    
+    @IBAction func btnRememberMeTapped(_ sender: UIButton) {
+        sender.isSelected = !sender.isSelected
+
+        if sender.isSelected {
+            print("Selected Remember me button !")
+            sender.setImage(UIImage(named: "btn-check"), for: .selected)
+        } else {
+            print("Unselected Remember me button !")
+            sender.setImage(UIImage(named: "btn-uncheck"), for: .normal)
+        }
+    }
     
     // MARK: - Next Button Tapped
     
@@ -74,7 +92,9 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func btnRegisterNowTapped(_ sender: UIButton) {
+        let SignUpVC = self.storyboard?.instantiateViewController(withIdentifier: Constants.SignUpVC) as! SignUpViewController
+        
+        self.navigationController?.pushViewController(SignUpVC, animated: true)
     }
-    
     
 }

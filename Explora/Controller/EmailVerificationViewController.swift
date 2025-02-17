@@ -9,8 +9,9 @@ import UIKit
 
 class EmailVerificationViewController: UIViewController {
 
-    @IBOutlet weak var lblEmailCode: UILabel!
+    //MARK: - Outlets.
     
+    @IBOutlet weak var lblEmailCode: UILabel!
     @IBOutlet weak var txtDigitOne: UITextField!
     @IBOutlet weak var txtDigitTwo: UITextField!
     @IBOutlet weak var txtDigitThree: UITextField!
@@ -19,6 +20,7 @@ class EmailVerificationViewController: UIViewController {
     @IBOutlet weak var txtDigitSix: UITextField!
     @IBOutlet weak var btnVerify: UIButton!
     
+    // MARK: - DidLoad()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +41,8 @@ class EmailVerificationViewController: UIViewController {
         
         self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
+
+    // MARK: - Verification Method.
     
     @IBAction func btnVerifyPressed(_ sender: UIButton) {
         // Get the text from each text field
@@ -53,6 +57,8 @@ class EmailVerificationViewController: UIViewController {
 
         if enteredCode == "697549" {
             // Valid
+            let HomeVC = self.storyboard?.instantiateViewController(withIdentifier: Constants.HomeVC) as! HomeViewController
+            self.navigationController?.pushViewController(HomeVC, animated: true)
             AlertManager.shared.showAlert(on: self, title: "Login Succesful !", message: "")
         } else {
             // Invalid
@@ -88,7 +94,6 @@ extension EmailVerificationViewController: UITextFieldDelegate {
         
         return false // Prevent any non-digit input or more than 1 character
     }
-
     
     func isValidSingleDigit(_ text: String) -> Bool {
         return text.count == 1 && text.rangeOfCharacter(from: CharacterSet.decimalDigits) != nil
@@ -112,23 +117,33 @@ extension EmailVerificationViewController: UITextFieldDelegate {
         }
     }
     
-    // Move to the prev text field
-    func moveToPreviousTextField(before currentTextField: UITextField) {
-        if currentTextField == txtDigitTwo {
-            txtDigitOne.becomeFirstResponder()
-        } else if currentTextField == txtDigitThree {
-            txtDigitTwo.becomeFirstResponder()
-        } else if currentTextField == txtDigitFour {
-            txtDigitThree.becomeFirstResponder()
-        } else if currentTextField == txtDigitFive {
-            txtDigitFour.becomeFirstResponder()
-        } else if currentTextField == txtDigitSix {
-            txtDigitFive.becomeFirstResponder()
-        }
-    }
-
     // begins editing a text field
     func textFieldDidBeginEditing(_ textField: UITextField) {
         textField.text = nil
     }
 }
+
+// MARK: - Extra...
+
+/*
+ 
+ // Move to the prev text field
+ func moveToPreviousTextField(before currentTextField: UITextField) {
+     if currentTextField == txtDigitTwo {
+         txtDigitOne.becomeFirstResponder()
+     } else if currentTextField == txtDigitThree {
+         txtDigitTwo.becomeFirstResponder()
+     } else if currentTextField == txtDigitFour {
+         txtDigitThree.becomeFirstResponder()
+     } else if currentTextField == txtDigitFive {
+         txtDigitFour.becomeFirstResponder()
+     } else if currentTextField == txtDigitSix {
+         txtDigitFive.becomeFirstResponder()
+     }
+ }
+ 
+ if newText.count == 0 {
+     moveToPreviousTextField(before: textField)
+     return true // Allow the text field to clear
+ }
+*/

@@ -8,12 +8,16 @@
 import UIKit
 
 class WelcomeScreenTwoVC: UIViewController {
-
+    
+    // MARK: - Outlets.
+    
     @IBOutlet weak var imgTwo: UIImageView!
     
     @IBOutlet weak var lblReachTwo: UILabel!
     
     @IBOutlet weak var lblDestinationTwo: UILabel!
+    
+    // MARK: - DidLoad().
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +29,8 @@ class WelcomeScreenTwoVC: UIViewController {
         
         self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
+    
+    // MARK: - On Next btn Press.
     
     @IBAction func btnNextTapped(_ sender: UIButton) {
         let ThirdVC = self.storyboard?.instantiateViewController(withIdentifier: Constants.WSThree) as! WelcomeScreenThreeVC

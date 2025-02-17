@@ -8,6 +8,8 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+    
+    // MARK: - DidLoad().
 
     override func viewDidLoad() {
         super.viewDidLoad()

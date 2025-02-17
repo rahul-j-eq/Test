@@ -8,7 +8,9 @@
 import UIKit
 
 class SignUpViewController: UIViewController {
-
+    
+    // MARK: - Outlets.
+    
     @IBOutlet weak var imgGetStarted: UIImageView!
     
     @IBOutlet weak var txtName: UITextField!
@@ -20,6 +22,9 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var txtPassword: UITextField!
     
     @IBOutlet weak var btnNext: UIButton!
+    
+    
+    // MARK: - DidLoad().
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,8 +38,19 @@ class SignUpViewController: UIViewController {
         
         self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
+    
+    // MARK: - Agree to Terms.
 
-    @IBAction func btnAgreeToTermsPressed(_ sender: Any) {
+    @IBAction func btnAgreeToTermsPressed(_ sender: UIButton) {
+        sender.isSelected = !sender.isSelected
+
+        if sender.isSelected {
+            print("Selected Terms & Condition button !")
+            sender.setImage(UIImage(named: "btn-check"), for: .selected)
+        } else {
+            print("Unselected Terms & Condition button !")
+            sender.setImage(UIImage(named: "btn-uncheck"), for: .normal)
+        }
     }
     
     // MARK: - Next Button Tapped
@@ -102,6 +118,9 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func btnLoginPressed(_ sender: UIButton) {
+        let LoginVC = self.storyboard?.instantiateViewController(withIdentifier: Constants.LoginVC) as! LoginViewController
+        
+        self.navigationController?.pushViewController(LoginVC, animated: true)
     }
     
 }

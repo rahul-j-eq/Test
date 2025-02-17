@@ -9,6 +9,8 @@ import Foundation
 
 struct Constants {
     
+    // MARK: - ViewControllers.
+    
     static let WSOne = "WelcomeScreenOneVC"
     static let WSTwo = "WelcomeScreenTwoVC"
     static let WSThree = "WelcomeScreenThreeVC"
@@ -16,6 +18,8 @@ struct Constants {
     static let SignUpVC = "SignUpViewController"
     static let HomeVC = "HomeViewController"
     static let EmailVerificationVC = "EmailVerificationViewController"
+    
+    // MARK: - Error Message phrases.
     
     static let invalidEmail = "Please enter a valid email address."
     static let networkError = "Network connection error. Please try again later."
