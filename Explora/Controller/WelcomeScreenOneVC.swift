@@ -8,10 +8,14 @@
 import UIKit
 
 class WelcomeScreenOneVC: UIViewController {
-
+    
+    // MARK: - Outlets.
+    
     @IBOutlet weak var imgOne: UIImageView!
     @IBOutlet weak var lblExploreOne: UILabel!
     @IBOutlet weak var lblToDesireOne: UILabel!
+    
+    // MARK: - DidLoad().
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,11 +25,12 @@ class WelcomeScreenOneVC: UIViewController {
     }
     
     
+    // MARK: - On Next btn Press.
     
     @IBAction func btnNextTapped(_ sender: UIButton) {
-        let SecondScreenVC = self.storyboard?.instantiateViewController(withIdentifier: "WelcomeScreenTwoVC") as! WelcomeScreenTwoVC
+        let SecondVC = self.storyboard?.instantiateViewController(withIdentifier: Constants.WSTwo) as! WelcomeScreenTwoVC
         
-        self.navigationController?.pushViewController(SecondScreenVC, animated: true)
+        self.navigationController?.pushViewController(SecondVC, animated: true)
     }
     
 }
