@@ -57,7 +57,7 @@ world easily</string>
                                         <rect key="frame" x="26.666666666666664" y="0.0" width="21.666666666666664" height="20.333333333333332"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="gay-uZ-NZ4">
-                                        <rect key="frame" x="53.333333333333314" y="0.0" width="21.666666666666671" height="20.333333333333332"/>
+                                        <rect key="frame" x="53.333333333333321" y="0.0" width="21.666666666666664" height="20.333333333333332"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
@@ -109,13 +109,13 @@ world easily</string>
                                 <rect key="frame" x="37.666666666666657" y="75.999999999999986" width="300" height="243.66666666666663"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome back" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyl-fQ-ckK">
-                                <rect key="frame" x="79.666666666666686" y="207.66666666666666" width="178.33333333333331" height="31.666666666666657"/>
+                                <rect key="frame" x="79.666666666666671" y="207.66666666666666" width="178.33333333333331" height="31.666666666666657"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sign in to access your account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcO-9l-36D">
-                                <rect key="frame" x="60.333333333333371" y="249.33333333333334" width="217" height="19.333333333333343"/>
+                                <rect key="frame" x="60.333333333333343" y="249.33333333333334" width="217.00000000000003" height="19.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -180,7 +180,7 @@ world easily</string>
                                     <constraint firstAttribute="height" constant="20" id="mNz-ej-01P"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" image="btn-uncheck">
+                                <state key="normal" backgroundImage="btn-uncheck">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <state key="selected" backgroundImage="btn-check"/>
@@ -297,7 +297,7 @@ world easily</string>
                                         <rect key="frame" x="26.666666666666664" y="0.0" width="21.666666666666664" height="20.333333333333332"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-rectangle-filled" translatesAutoresizingMaskIntoConstraints="NO" id="ZEy-yu-zrH">
-                                        <rect key="frame" x="53.333333333333314" y="0.0" width="21.666666666666671" height="20.333333333333332"/>
+                                        <rect key="frame" x="53.333333333333321" y="0.0" width="21.666666666666664" height="20.333333333333332"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </imageView>
                                 </subviews>
@@ -383,7 +383,7 @@ world easily</string>
                                         <rect key="frame" x="26.666666666666664" y="0.0" width="21.666666666666664" height="20.333333333333332"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="d4P-Db-Xjr">
-                                        <rect key="frame" x="53.333333333333314" y="0.0" width="21.666666666666671" height="20.333333333333332"/>
+                                        <rect key="frame" x="53.333333333333321" y="0.0" width="21.666666666666664" height="20.333333333333332"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
@@ -435,13 +435,13 @@ world easily</string>
                                 <rect key="frame" x="37.666666666666657" y="75.999999999999986" width="300" height="243.66666666666663"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get Started" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TIX-sQ-2Yi">
-                                <rect key="frame" x="75.666666666666686" y="198" width="186.33333333333331" height="42"/>
+                                <rect key="frame" x="75.666666666666671" y="198" width="186.33333333333331" height="42"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sign in to access your account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N4H-0T-Bcc">
-                                <rect key="frame" x="60.333333333333371" y="250.00000000000003" width="217" height="19.333333333333343"/>
+                                <rect key="frame" x="60.333333333333343" y="250.00000000000003" width="217.00000000000003" height="19.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -476,13 +476,13 @@ world easily</string>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gm-I9-cRE">
-                                <rect key="frame" x="25" y="579.33333333333337" width="18" height="18"/>
+                                <rect key="frame" x="25" y="579.33333333333337" width="20" height="20"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="9gm-I9-cRE" secondAttribute="height" id="Mt0-Da-yqb"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" image="btn-uncheck">
+                                <state key="normal" backgroundImage="btn-uncheck">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <state key="selected" backgroundImage="btn-check"/>
@@ -491,7 +491,7 @@ world easily</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By checking the box you agree to our Terms and Conditions." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81A-cX-QuD">
-                                <rect key="frame" x="48" y="579.33333333333337" width="307" height="18"/>
+                                <rect key="frame" x="50" y="579.33333333333337" width="305" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -518,7 +518,7 @@ world easily</string>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQi-jX-9Xs">
+                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQi-jX-9Xs">
                                 <rect key="frame" x="20" y="669" width="335" height="60"/>
                                 <color key="backgroundColor" name="background"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
@@ -565,6 +565,7 @@ world easily</string>
                     <navigationItem key="navigationItem" id="1wA-V2-Mox"/>
                     <connections>
                         <outlet property="btnNext" destination="CQi-jX-9Xs" id="Y67-bF-ozC"/>
+                        <outlet property="btnTerms" destination="9gm-I9-cRE" id="1ml-q0-aRu"/>
                         <outlet property="imgGetStarted" destination="RPP-FY-RS5" id="YUY-mA-Zef"/>
                         <outlet property="txtEmail" destination="kNs-Cc-c2p" id="AJe-1c-mMm"/>
                         <outlet property="txtName" destination="v3k-68-3X9" id="Bca-JS-0jL"/>
@@ -682,7 +683,7 @@ Cg
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" returnKeyType="continue" enablesReturnKeyAutomatically="YES" smartInsertDeleteType="no" textContentType="one-time-code"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XAn-if-uI8">
-                                        <rect key="frame" x="218.33333333333337" y="0.0" width="34.666666666666629" height="40.666666666666664"/>
+                                        <rect key="frame" x="218.33333333333334" y="0.0" width="34.666666666666657" height="40.666666666666664"/>
                                         <color key="backgroundColor" systemColor="systemGray6Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" returnKeyType="continue" enablesReturnKeyAutomatically="YES" smartInsertDeleteType="no" textContentType="one-time-code"/>
@@ -710,7 +711,7 @@ Cg
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="OnQ-R1-Suh">
-                                <rect key="frame" x="65.333333333333371" y="457.66666666666669" width="300.33333333333326" height="28"/>
+                                <rect key="frame" x="65.333333333333343" y="457.66666666666669" width="300.33333333333326" height="28"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Didn’t receive any code? " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ssx-A2-eEL">
                                         <rect key="frame" x="0.0" y="0.0" width="147.66666666666666" height="28"/>
@@ -728,7 +729,7 @@ Cg
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Request new code in 00:30s" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="klO-PY-ZHI">
-                                <rect key="frame" x="104" y="495.66666666666669" width="145.66666666666663" height="14.333333333333314"/>
+                                <rect key="frame" x="103.99999999999999" y="495.66666666666669" width="145.66666666666663" height="14.333333333333314"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -858,7 +859,7 @@ Cg
         <image name="btn-check" width="16.666666030883789" height="16.666666030883789"/>
         <image name="btn-next" width="50" height="50"/>
         <image name="btn-previous" width="51" height="51"/>
-        <image name="btn-uncheck" width="16.666666030883789" height="16.666666030883789"/>
+        <image name="btn-uncheck" width="20" height="20"/>
         <image name="ic-rectangle" width="13" height="6"/>
         <image name="ic-rectangle-filled" width="16" height="6"/>
         <image name="img-welcome" width="107" height="83.666664123535156"/>
@@ -876,7 +877,7 @@ Cg
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray6Color">
-            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

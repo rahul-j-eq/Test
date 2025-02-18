@@ -23,7 +23,7 @@ class SignUpViewController: UIViewController {
     
     @IBOutlet weak var btnNext: UIButton!
     
-    
+    @IBOutlet weak var btnTerms: UIButton!
     // MARK: - DidLoad().
     
     override func viewDidLoad() {
@@ -32,24 +32,40 @@ class SignUpViewController: UIViewController {
         // Do any additional setup after loading the view.
         btnNext.layer.cornerRadius = 10
         btnNext.layer.masksToBounds = true
+        updateNextButtonState()
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        
+        updateNextButtonState()
         self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
     // MARK: - Agree to Terms.
-
+    
     @IBAction func btnAgreeToTermsPressed(_ sender: UIButton) {
         sender.isSelected = !sender.isSelected
-
+        
+        // Toggle the image based on the selection state
         if sender.isSelected {
             print("Selected Terms & Condition button !")
             sender.setImage(UIImage(named: "btn-check"), for: .selected)
         } else {
             print("Unselected Terms & Condition button !")
             sender.setImage(UIImage(named: "btn-uncheck"), for: .normal)
+        }
+        
+        // Update the btnNext button state
+        updateNextButtonState()
+    }
+    
+    func updateNextButtonState() {
+        // Check if btnAgreeToTerms is selected and adjust btnNext state
+        if btnTerms.isSelected {
+            btnNext.alpha = 1.0
+            btnNext.isUserInteractionEnabled = true
+        } else {
+            btnNext.alpha = 0.4
+            btnNext.isUserInteractionEnabled = false
         }
     }
     
