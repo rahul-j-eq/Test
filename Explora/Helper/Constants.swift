@@ -18,6 +18,7 @@ struct Constants {
     static let SignUpVC = "SignUpViewController"
     static let HomeVC = "HomeViewController"
     static let EmailVerificationVC = "EmailVerificationViewController"
+    static let ForgetPassVC = "ForgetPassViewController"
     
     // MARK: - Error Message phrases.
     

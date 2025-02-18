@@ -38,6 +38,8 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func btnForgetPasswordTapped(_ sender: UIButton) {
+        let ForgetPassVC = self.storyboard?.instantiateViewController(withIdentifier: Constants.ForgetPassVC) as! ForgetPassViewController
+        self.navigationController?.pushViewController(ForgetPassVC, animated: true)
     }
     
     // MARK: - Remember Me Button.
